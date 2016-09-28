@@ -1,0 +1,96 @@
+/*!
+ * The Samurai by Joel Cruz - joel_cruz@student.uml.edu
+ * Copyright 2016 Joel Cruz
+ * Licensed under MIT ()
+ *
+ * This file was created to customize creative.css, a theme gained from
+ * https://startbootstrap.com/template-overviews/creative/
+ *
+ * Colors: 
+ * black: #282c37;
+ * grey: #9baec8;
+ * light gray: #d9e1e8;
+ * baby blue: #53b3e2; 
+ *
+ */
+
+
+/* Changes the header image  */
+
+header {
+    background-image: url('../img/header.jpg');
+}
+
+.bg-primary {
+    background-color: #53b3e2;
+}
+
+@media (min-width: 768px) {
+    .navbar-default.affix .nav>li>a,
+    .navbar-default.affix .nav>li>a:hover {
+        color: #53b3e2 !important;
+    }
+}
+
+.navbar-default .navbar-brand {
+    color: #53b3e2;
+}
+
+.navbar-default .nav>li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #53b3e2 !important;
+}
+
+.img-icon {
+    width: 180px;
+    height: 180px;
+}
+
+a {
+    color: #53b3e2;
+}
+
+hr {
+    border-color: #53b3e2;
+}
+
+.btn-primary {
+    background-color: #53b3e2;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: black;
+    background-color: #d9e1e8;
+    border-color: #9baec8;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #d9e1e8;
+    border-color: #9baec8;
+}
+
+.portfolio-box .portfolio-box-caption {
+    background-color: #53b3e2;
+}
