@@ -1,2 +1,2 @@
 # Personal Site
-joel24478.github.io
+[View it here](joel24478.github.io)
