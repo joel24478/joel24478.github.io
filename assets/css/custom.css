@@ -19,7 +19,30 @@
 
 header {
     background-image: url('../img/header.jpg');
+    color: #53b3e2;
 }
+
+.background-img {
+    background-image: url('../img/header1.png'), url('../img/header2.png');
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#homeHeading {
+    text-transform: capitalize;
+}
+
+.hidden-img {
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    top: 50px;
+    right: 130px;
+    position: absolute;
+}
+
+.floating-background {}
 
 .bg-primary {
     background-color: #53b3e2;
@@ -93,4 +116,17 @@ fieldset[disabled] .btn-primary.active {
 
 .portfolio-box .portfolio-box-caption {
     background-color: #53b3e2;
+}
+
+.portfolio-heading {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.self-portrait {
+    filter: blur(.3px) sepia(0.5);
+    -webkit-filter: blur(.3px) sepia(0.5);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
 }
